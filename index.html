@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment01 - Adriano Melquiades</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <spam>Choose an option: </spam><select id="MetricImperial" name="MetricImperial">
+        <option value="Metric">Metric</option>
+        <option value="Imperial">Imperial</option>
+      </select>
+    </div>
+
+    <h2>BMR CALCULATOR</h2>
+    <spam>Gender: </spam>
+    <select id="gender" name="Gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <br>
+    <br>
+    <div id="data">
+      <div class="line">
+        <label for="Age">Age (years): <input type="Number" id="age" name="age" /></label>
+      </div>
+      <div class="line">
+        <label for="Height">Height (meters/inches): <input type="Number" id="height" name="height"></label>
+      </div>
+      <div class="line">
+        <label for="Weight">Weight (kg/pounds): <input type="Number" id="weight" name="weight"></label>
+      </div>
+      <br><br>
+    </div>
+    <p>Please select your activity level:</p>
+
+    <input type="radio" value="1.2" name="activityLevel" id="activityLevel1">
+    <spam class="activity">I am sedentary (little or no exercice)</spam>
+    <br>
+    <input type="radio" value="1.375" name="activityLevel" id="activityLevel2">
+    <spam class="activity">I am lightly active (light exercise or sports 1-3 days per week)</spam>
+    <br>
+    <input type="radio" value="1.725" name="activityLevel" id="activityLevel3">
+    <spam class="activity">I am moderately active (moderate exercise or sports 3-5 days per week)</spam>
+    <br>
+    <input type="radio" value="1.55" name="activityLevel" id="activityLevel4">
+    <spam class="activity">I am very active (hard exercise or sports 6-7 days per week)</spam>
+    <br>
+    <input type="radio" value="1.9" name="activityLevel" id="activityLevel5">
+    <spam class="activity">I am super active(very hard exercise or sports and physical job or 2x training)</spam>
+    <br>
+    <input type="button" id="submit" value="Press here to calculate BMR">
+    <br><br>
+
+    <label for="resultBmr"> Your BMR is: <input type="text" id="resultBmr" name="result"></label>
+    <br>
+    <label for="resultCalories">Your calories are: <input type="text" id="resultCalories" name="result"></label>
+
+  </div>
+  <script src="./assignment1.js"></script>
+</body>
+
+</html>

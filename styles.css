@@ -1,0 +1,39 @@
+body {
+  background-color: bisque;
+  padding: 3px;
+  padding-left: 70px;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+nav ul {
+  padding: 0px;
+  list-style-type: none;  
+}
+
+body label {
+  padding-bottom: 30px; 
+}
+
+li a {
+  padding-right: 15px;
+  color: rgb(230, 73, 73);
+}
+
+
+.line {
+  padding-bottom: 10px;
+}
+
+#resultBmr {
+  margin-bottom: 10px;
+}
+
+#submitMetric {
+  margin-top: 20px;
+}
+
+
